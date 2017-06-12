@@ -44,7 +44,7 @@ Snake.drawGrid = function() {
 Snake.drawScore = function() {
 	// white text
 	Snake.context.fillStyle = 'rgb(255,255,255)';
-	Snake.context.font = "30 Verdana";
+	Snake.context.font = "20 Verdana";
 	Snake.context.fillText(Snake.score.toString(), 50,70);
 	Snake.setPositionRedraw(1,1);
 	Snake.setPositionRedraw(2,1);
