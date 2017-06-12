@@ -55,7 +55,7 @@ Snake.drawGameOver = function() {
 	Snake.context.globalAlpha = 0.75;
 	Snake.context.fillRect(0,0,800,600);
 	Snake.context.fillStyle = 'rgb(255,255,255)';
-	Snake.context.fillText('RATTRAPAGE!', 1200, 1120);
+	Snake.context.fillText('RATTRAPAGE!', 300, 280);
 }
 
 Snake.setPositionRedraw = function(x,y)
